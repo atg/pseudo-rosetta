@@ -1,0 +1,74 @@
+// https://docs.python.org/dev/library/stdtypes.html#sequence-types-list-tuple-range
+// http://ruby-doc.org/core-2.3.0/Array.html#method-i-length
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+// https://lodash.com/docs
+
+list#__add__
+  rb: Array#+
+  js: ???
+list#append
+  rb: Array#push
+  js: ???
+list#__contains__
+  rb: Array#include?
+  js: ???
+list#__delitem__
+  rb: Array#delete_at
+  js: Array#__delitem__
+list#__getitem__
+  rb: Array#[]
+  js: Array#[]
+list#__init__
+  rb: ???
+  js: ???
+list#__iter__
+  rb: Array#each
+  js: ???
+list#__len__
+  rb: Array#length
+  js: Array#.length
+list#__mul__
+  rb: Array#*
+  js: ???
+list#__repr__
+  rb: ???
+  js: ???
+list#__reversed__
+  rb: ???
+  js: ???
+list#__setitem__
+  rb: ???
+  js: ???
+list#__str__
+  rb: ???
+  js: ???
+list#clear
+  rb: ???
+  js: ???
+list#copy
+  rb: ???
+  js: ???
+list#count
+  rb: ???
+  js: ???
+list#extend
+  rb: ???
+  js: ???
+list#index
+  rb: ???
+  js: ???
+list#insert
+  rb: Array#insert
+  js: [needs shim]
+list#pop
+  rb: Array#pop
+  js: Array#pop
+list#remove
+  rb: [needs shim]
+  js: [needs shim]
+list#reverse
+  rb: Array#reverse!
+  js: Array#reverse
+list#sort
+  rb: Array#sort!
+  js: ???

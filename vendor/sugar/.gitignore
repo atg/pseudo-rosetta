@@ -1,0 +1,27 @@
+## MAC OS
+.DS_Store
+
+## TEXTMATE
+*.tmproj
+tmtags
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp
+
+## PROJECT::GENERAL
+logs
+log
+tmp
+node_modules
+bower_components
+
+## PROJECT::SPECIFIC
+release/precompiled
+
+## Want to test these across branches/tags
+performance/javascripts/tests.js

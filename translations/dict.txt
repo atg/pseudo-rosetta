@@ -1,0 +1,29 @@
+// https://docs.python.org/dev/library/stdtypes.html#mapping-types-dict
+// http://ruby-doc.org/core-2.3.0/Hash.html
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+// https://lodash.com/docs
+
+dict#__contains__
+  rb: Hash#has_key?
+  js: Map#has
+dict#__delitem__
+dict#__getitem__
+dict#__iter__
+  rb: ???
+  js: ???
+dict#__init__
+dict#__len__
+dict#__repr__
+dict#__setitem__
+dict#__str__
+dict#clear
+dict#copy
+dict#fromkeys
+dict#get
+dict#items
+dict#keys
+dict#pop
+dict#popitem
+dict#setdefault
+dict#update
+dict#values

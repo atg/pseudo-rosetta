@@ -1,0 +1,54 @@
+{
+  "name": "sugar",
+  "version": "1.4.1",
+  "description": "A Javascript library for working with native objects.",
+  "keywords": [
+    "sugarjs",
+    "functional",
+    "utility",
+    "util",
+    "browser",
+    "date",
+    "time",
+    "parse",
+    "format"
+  ],
+  "homepage": "http://sugarjs.com/",
+  "author": "Andrew Plummer",
+  "main": "./release/sugar-full.dev.js",
+  "directories": {
+    "lib": "./release"
+  },
+  "files": [
+    "release/sugar-full.dev.js",
+    "test/javascripts/date-helpers.js",
+    "test/javascripts/helpers.js",
+    "test/javascripts/suite.js",
+    "test/environments/sugar/",
+    "test/environments/node/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewplummer/Sugar.git"
+  },
+  "engines": {
+    "node": ">= 0.8.23"
+  },
+  "scripts": {
+    "test": "node test/environments/node/test.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "closure-compiler-stream": "^0.1.15",
+    "glob": "^5.0.14",
+    "gulp": "^3.9.0",
+    "gulp-concat-util": "^0.5.2",
+    "gulp-npm-run": "0.0.1",
+    "gulp-replace": "^0.5.3",
+    "gulp-util": "^3.0.6",
+    "merge-stream": "^0.1.8",
+    "sinon": "^1.15.4",
+    "through2": "^2.0.0",
+    "yargs": "^3.15.0"
+  }
+}

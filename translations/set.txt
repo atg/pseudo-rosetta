@@ -1,0 +1,45 @@
+// A#B means an instance method
+// A.B means a class method
+
+// It would be nice to make a table counting which methods have been mapped and which haven't!
+
+set#difference
+  rb: Set#difference
+  js: [needs shim]
+set#union
+  rb: Set#union
+  js: [needs shim]
+set#intersection
+  rb: Set#intersection
+  js: [needs shim]
+set#symmetric_difference
+  rb: Set#^
+  js: [needs shim]
+set#issubset
+  rb: Set#subset?
+  js: [needs shim]
+set#issuperset
+  rb: Set#superset?
+  js: [needs shim]
+set#__iter__
+  rb: Set#each
+  js: Set#values
+set#add
+  rb: Set#add
+  js: Set#add
+set#clear
+  rb: Set#clear
+  js: Set#clear
+set#copy
+  rb: [needs shim]
+  js: [needs shim]
+set#discard
+  rb: Set#delete?
+  js: Set#delete
+set#isdisjoint
+  rb: [needs shim]
+  js: [needs shim]
+set#pop
+  rb: [needs shim]
+  js: [needs shim]
+
